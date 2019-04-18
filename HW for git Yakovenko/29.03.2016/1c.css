@@ -1,0 +1,56 @@
+ul>li:nth-child(even) {
+    font-size: 20px;
+
+}
+li:last-child{
+    background: red ;
+}
+li:first-child{
+    color: pink;
+}
+li:only-child {
+    background: green ;
+}
+li:nth-child(3){
+    border: 3px solid lime;
+    padding-left: 30;
+}
+li:nth-child(n+2){
+    font-size: 10px;
+}
+li:not(:first-child){
+    font-size:10px;
+}
+ul{
+    list-style: none;
+}
+li:before {
+    content: "\2693";
+    display: inline-block;
+
+}
+li:last-child:before{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    background: blue;
+}
+li{
+    font-size: 2em;
+    
+}
+ul{
+    font-size: 20px;
+}
+.box {
+width: 200px;
+height: 50px;
+border: 5px solid green;
+background: 20px;
+padding: 20px;
+margin: 10px;
+background-image: url(im.jpg);
+background-size: cover;
+background-position: 50%; 
+}

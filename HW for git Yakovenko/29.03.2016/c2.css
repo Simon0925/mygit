@@ -1,0 +1,67 @@
+h1{
+color: red;
+}
+.hw{
+    color: blue;
+}
+#list li{
+    list-style-type: none;
+  }
+  li:first-child a{
+      color: green;
+     
+  }
+  li:nth-child(even){
+    font-size: 16px;
+}
+li:nth-child(odd){
+    font-size: 10px;
+}
+li:nth-child(3n+1){
+    background: yellow;
+}
+li:before {
+    content: "-";
+    
+
+}
+a {
+    text-decoration: none;
+}
+.block{
+    box-sizing: border-box;
+    margin: 2px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 5px;
+    border-color: black;
+    border-style: solid; 
+
+}
+.bull{
+    display: inline-block;
+    border-radius: 25px;
+    background: black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+    width: 20px;
+    border: 0px;
+    border-style: hidden;
+    
+}
+.square{
+    margin: 2px;
+}
+.block:hover{
+    border-color: blue;
+    background: yellow;
+cursor: text;
+}
+.bull:hover {
+    background: blue;
+}
